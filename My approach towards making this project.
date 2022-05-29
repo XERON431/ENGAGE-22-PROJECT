@@ -1,0 +1,20 @@
+# ENGAGE-22-PROJECT
+Name - Siddhant Goyal
+This is a project which I have made under The mentorship program "MICROSOFT ENGAGE 22".
+This project is based on the second challenge, i.e, Data Analytics.
+I started to work on this project by first visualising the given data in csv file provided to us.
+After visualisation, I found that a lot of Data has been missing from the excel sheet.
+So, my first task waas to impute the given data.
+I started by removing the unnamed columns.
+Then, I then I calculated null value percentage for remaining columns and dropped the columns who were more than 70 percent null because such data was anyways redundant.
+Then I imputed the remaining columns like for example in the make column I filled all the empty columns similarly I imputed other entries like highway mileage,city mileage, etc.
+then comes the preparation part.
+Columns like ex- showroom price which had alphanumeric entries could not be used for analysis. Hence, we need to convert the data into numeric type.
+This is done by dropping Rs. symbol and commas from entries.
+Then I coverted the data type from object to float.
+Then I decided to use different to pictorial techniques like bar graphs, charts, etc. to visualise the data.
+Finally 
+I used Regression Algorithms to compare the growth of price with the increase in cylinders in the car.
+I used linear and polynomial regression Algorithms.
+We found out that Linear Regression had an accuracy of 62.4% and Polynomial Regression had an accuracy of 64%.
+Similarly, I have made many comparisions in the project to analyse the data.
